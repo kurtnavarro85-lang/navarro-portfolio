@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Kurt Navarro</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://www.facebook.com/share/1D3RoiZWGg/" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1 class="logo">KurtNavarro</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul> 
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div>
+      <h2>Hello, I'm <span>Kurt Navarro</span></h2>
+      <p>Aspiring Web Developer | Student | Tech Enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="548722776_1990597038439363_8250512226679679381_n.jpg" alt="Kurt Navarro Profile Photo">
+      <p>
+        Hi! I'm Kurt Navarro, currently studying BSIT at Occidental Mindoro State College Mamburao Campus. I enjoy building creative, responsive, and user-friendly websites. 
+        My interests include web development, UI/UX design, and exploring emerging technologies. 
+        This portfolio showcases some of the projects I've worked on during my academic journey.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/images/project1.jpg" alt="Coffee Shop Website Screenshot">
+        <h3>Coffee Shop Website</h3>
+        <p>A responsive website for a coffee shop with an interactive menu and ordering system.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/images/project2.jpg" alt="Personal Blog Platform Screenshot">
+        <h3>Personal Blog Platform</h3>
+        <p>A personal blog platform with a clean design and easy navigation for posts.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/images/project3.jpg" alt="Portfolio3>Interactive Portfolio</h3>
+        <p>An online portfolio built with HTML, CSS, and JavaScript showcasing responsive design and modern web techniques.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML5 / CSS3</li>
+      <li>JavaScript (ES6+)</li>
+      <li>Responsive Web Design</li>
+      <li>Git & GitHub</li>
+      <li>UI/UX Principles</li>
+      </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out if you'd like to collaborate or have any questions.</p>
+    <a href="mailto:kurtnavarro85@gmail.com" class="btn">Email Me</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kurt Navarro | Built with ❤️ using HTML & CSS</p>
+  </footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>
